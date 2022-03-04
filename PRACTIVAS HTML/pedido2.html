@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <title>Levantar Pedido</title>
+    <link rel="stylesheet" href="./pasteleria.css">
+</head>
+<body>
+<section class="fondoRepetido2">
+    <h1>Aqui se hace el pedido</h1> <br>
+
+    <h2>Llene el siguiente formulario para realizar pedido:</h2>
+
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu nombre: </label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br><br>
+
+        <label for="tell"> Danos tu numero telefonico a 10 digitos: </label> <br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10" placeholder="1111111111">
+
+        <br><br>
+
+        <label for="correo1"> Inserte su correo electronico: </label> <br>
+        <input type="email" id="correo1" name="correo1" placeholder="correo@correo.com">
+
+        <br><br>
+
+        <label for="Input1"> Descripcion general de su pastel: </label><br>
+        <input type="text" id="Input1" name="Input1">
+
+        <br><br>
+
+        <p>¿Recoger en tienda o Llevar hasta tu casa?</p>
+        <input type="radio" id="Recoger en tienda" name="RecogeroLlevar" value="Recoger en tienda">
+        <label for="Recoger en tienda">Recoger en tienda</label><br>
+        <input type="radio" id="Llevar hasta tu casa" name="RecogeroLlevar" value="Llevar hasta tu casa">
+        <label for="Llevar hasta tu casa">Llevar hasta tu casa</label><br>
+
+        <br><br>
+
+        <p>Selecciona sabor:</p>
+        <input type="checkbox" id="dulceencanto" name="dulceencanto" value="Dulce Encanto">
+        <label for="dulceencanto">Dulce Encanto</label> <br>
+        <input type="checkbox" id="dulcetentacion" name="dulcetentacion" value="Dulce Tentacion">
+        <label for="dulcetentacion">Dulce Tentacion</label> <br>
+        <input type="checkbox" id="ParadiseofCake" name="ParadiseofCake" value="Paradise of Cake">
+        <label for="ParadiseofCake">Paradise of Cake</label> <br>
+        <input type="checkbox" id="Ricco" name="Ricco" value="Ricco">
+        <label for="Ricco">Ricco</label> <br>
+        <input type="checkbox" id="TorteRosa" name="TorteRosa" value="Torte Rosa">
+        <label for="TorteRosa">Torte Rosa</label> <br>
+        <input type="checkbox" id="DitadiPane" name="DitadiPane" value="Dita di Pane">
+        <label for="DitadiPane">Dita di Pane</label> <br>
+        <input type="checkbox" id="SugarKisses" name="SugarKisses" value="Sugar Kisses">
+        <label for="SugarKisses">Sugar Kisses</label> <br>
+        <input type="checkbox" id="SugarBloom" name="SugarBloom" value="Sugar Bloom">
+        <label for="SugarBloom">Sugar Bloom</label> <br>
+        <input type="checkbox" id="Chocolatesolo" name="Chocolatesolo" value="Chocolate solo">
+        <label for="Chocolatesolo">Chocolate solo</label> <br>
+        <input type="checkbox" id="Fresasolo" name="Fresasolo" value="Fresa solo">
+        <label for="Fresasolo">Fresa solo</label> <br>
+        <input type="checkbox" id="Napolitano" name="Napolitano" value="Napolitano">
+        <label for="Napolitano">Napolitano</label> <br> <br>
+
+        <p>Selecciona adorno:</p>
+        <input type="checkbox" id="Decoracion3D" name="Decoracion3D" value="Decoracion 3D">
+        <label for="Decoracion3D">Decoracion 3D</label> <br>
+        <input type="checkbox" id="Decoraciongeometrica" name="Decoraciongeometrica" value="Decoracion geometrica">
+        <label for="Decoraciongeometrica">Decoracion geometrica</label> <br>
+        <input type="checkbox" id="Decoracionfloral" name="Decoracionfloral" value="Decoracion floral">
+        <label for="Decoracionfloral">Decoracion floral</label> <br>
+        <input type="checkbox" id="Decoraciónsemidesnudaonaked" name="Decoraciónsemidesnudaonaked" value="Decoración semidesnuda o naked">
+        <label for="Decoraciónsemidesnudaonaked">Decoración semidesnuda o naked</label> <br>
+        <input type="checkbox" id="Decoracionespacial" name="Decoracionespacial" value="Decoracion espacial">
+        <label for="Decoracionespacial">Decoracion espacial</label> <br>
+        <input type="checkbox" id="Decoracióndripcakes" name="Decoracióndripcakes" value="Decoración drip cakes">
+        <label for="Decoracióndripcakes">Decoración drip cakes</label> <br>
+
+        <br><br>
+        <input type="reset">
+        
+        <input type="submit" id="submit1" name="submit1" value="Enviar" onclick="alert('¿Estas seguro?');"><br><br>
+
+        <br><br>
+    </form>
+</section>
+
+</body>
+</html>
+
+       

@@ -1,0 +1,25 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fondoRepetido{
+    background-image: url("../PRACTIVAS HTML/47941.png");
+    background-repeat: repeat;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.derecha{
+    text-align: right;
+}
+
+#imagen{
+    float:right;
+}
+
+.fondoRepetido2{
+    background-image: url("../PRACTIVAS HTML/pedido.jpg");
+    background-repeat: repeat;
+}
