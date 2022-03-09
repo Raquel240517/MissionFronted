@@ -1,5 +1,11 @@
 *{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: 'Dancing Script', cursive;
 }
 
 .fondoRepetido{
@@ -7,12 +13,22 @@
     background-repeat: repeat;
 }
 
-.centrado{
-    text-align: center;
-}
 
 .derecha{
     text-align: right;
+    font-size: 20px;
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.derecha2{
+    text-align: right;
+    font-size: 30px;
+    color: black;
 }
 
 #imagen{
@@ -23,3 +39,82 @@
     background-image: url("../PRACTIVAS HTML/pedido.jpg");
     background-repeat: repeat;
 }
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.titulo{
+    color: black;
+    font-size: 30px;
+}
+
+.centro{
+    text-align: center;
+}
+
+.tamano{
+    font-size: 20px;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    font-size: 20px;
+}
+
+nav > a{
+    color:black;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: black
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300 ;
+    color: black;
+}
+
+/*TABLA */
+
+
+#main-container{
+    background: #fffbd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 150px auto;
+    width: 600px;
+}
+
+th, td{
+    border: solid 2px #f7797d;
+    padding: 10px;
+}
+
