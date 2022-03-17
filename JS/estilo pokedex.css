@@ -1,0 +1,54 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+    background: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+}
+
+.poke{
+    background-color: rgba(255, 0, 0, 0.342);
+
+    text-align: center;
+
+}
+
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    max-width: 300px;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(235, 26, 26, 0.555);
+    border: 1px ;
+}
+
+.fondito {
+    margin: auto;
+    display: block;
+    
+}
